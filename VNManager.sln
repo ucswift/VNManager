@@ -1,0 +1,192 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{C699B1FE-B29F-4A51-952D-5CD61ED277DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandLine", "CommandLine", "{69D1C5CA-9E7D-4F2E-A226-BD2588C06C04}"
+	ProjectSection(SolutionItems) = preProject
+		References\CommandLine\CommandLine.dll = References\CommandLine\CommandLine.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{850CCCBA-0B39-4D7D-93BB-3F54504FFB70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{41AA2CA2-CAF5-4A05-95BD-8929436A3B05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{33FA16AF-8747-41D3-8196-E36CC63E56F0}"
+	ProjectSection(SolutionItems) = preProject
+		Common\AssemblyInfo.cs = Common\AssemblyInfo.cs
+		Common\Microsoft Public License - ms-pl.txt = Common\Microsoft Public License - ms-pl.txt
+		Common\VNManager-PubPriv-KeyFile.snk = Common\VNManager-PubPriv-KeyFile.snk
+		Common\VNManager-SA_32bit.{sa}proj = Common\VNManager-SA_32bit.{sa}proj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NUnit", "NUnit", "{9D815514-8672-4230-8AA1-9AF10CEC6C34}"
+	ProjectSection(SolutionItems) = preProject
+		References\NUnit\nunit.framework.dll = References\NUnit\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructureMap", "StructureMap", "{359DCC2E-8607-4DCD-A3DC-9562FB4BC8EA}"
+	ProjectSection(SolutionItems) = preProject
+		References\StructureMap\StructureMap.dll = References\StructureMap\StructureMap.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{4ED154D4-BF82-4DBB-A34A-27E3BC8A135B}"
+	ProjectSection(SolutionItems) = preProject
+		Images\ScreenShot.png = Images\ScreenShot.png
+		Images\VNM-SiteLogo.png = Images\VNM-SiteLogo.png
+		Images\VNM-SiteLogo.psd = Images\VNM-SiteLogo.psd
+		Images\VNManagerIcon.ico = Images\VNManagerIcon.ico
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{5370AB0E-E8E9-4052-A8AE-DF435395813D}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Build.VNManager.Full.bat = Build\Build.VNManager.Full.bat
+		Build\VNManager-FullBuild.build = Build\VNManager-FullBuild.build
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{09D36B86-FBBC-4C4E-8B02-3AFD53CB3EC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NAnt", "NAnt", "{53D28164-46BA-48B5-A996-D5C82E177FA9}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\NAnt\log4net.dll = Build\Tools\NAnt\log4net.dll
+		Build\Tools\NAnt\NAnt.CompressionTasks.dll = Build\Tools\NAnt\NAnt.CompressionTasks.dll
+		Build\Tools\NAnt\NAnt.CompressionTasks.xml = Build\Tools\NAnt\NAnt.CompressionTasks.xml
+		Build\Tools\NAnt\NAnt.Core.dll = Build\Tools\NAnt\NAnt.Core.dll
+		Build\Tools\NAnt\NAnt.Core.xml = Build\Tools\NAnt\NAnt.Core.xml
+		Build\Tools\NAnt\NAnt.DotNetTasks.dll = Build\Tools\NAnt\NAnt.DotNetTasks.dll
+		Build\Tools\NAnt\NAnt.DotNetTasks.xml = Build\Tools\NAnt\NAnt.DotNetTasks.xml
+		Build\Tools\NAnt\NAnt.exe = Build\Tools\NAnt\NAnt.exe
+		Build\Tools\NAnt\NAnt.exe.config = Build\Tools\NAnt\NAnt.exe.config
+		Build\Tools\NAnt\NAnt.MSNetTasks.dll = Build\Tools\NAnt\NAnt.MSNetTasks.dll
+		Build\Tools\NAnt\NAnt.MSNetTasks.xml = Build\Tools\NAnt\NAnt.MSNetTasks.xml
+		Build\Tools\NAnt\NAnt.NUnit.dll = Build\Tools\NAnt\NAnt.NUnit.dll
+		Build\Tools\NAnt\NAnt.NUnit.xml = Build\Tools\NAnt\NAnt.NUnit.xml
+		Build\Tools\NAnt\NAnt.NUnit1Tasks.dll = Build\Tools\NAnt\NAnt.NUnit1Tasks.dll
+		Build\Tools\NAnt\NAnt.NUnit1Tasks.xml = Build\Tools\NAnt\NAnt.NUnit1Tasks.xml
+		Build\Tools\NAnt\NAnt.NUnit2Tasks.dll = Build\Tools\NAnt\NAnt.NUnit2Tasks.dll
+		Build\Tools\NAnt\NAnt.NUnit2Tasks.xml = Build\Tools\NAnt\NAnt.NUnit2Tasks.xml
+		Build\Tools\NAnt\NAnt.SourceControlTasks.dll = Build\Tools\NAnt\NAnt.SourceControlTasks.dll
+		Build\Tools\NAnt\NAnt.SourceControlTasks.xml = Build\Tools\NAnt\NAnt.SourceControlTasks.xml
+		Build\Tools\NAnt\NAnt.VisualCppTasks.dll = Build\Tools\NAnt\NAnt.VisualCppTasks.dll
+		Build\Tools\NAnt\NAnt.VisualCppTasks.xml = Build\Tools\NAnt\NAnt.VisualCppTasks.xml
+		Build\Tools\NAnt\NAnt.VSNetTasks.dll = Build\Tools\NAnt\NAnt.VSNetTasks.dll
+		Build\Tools\NAnt\NAnt.VSNetTasks.xml = Build\Tools\NAnt\NAnt.VSNetTasks.xml
+		Build\Tools\NAnt\NAnt.Win32Tasks.dll = Build\Tools\NAnt\NAnt.Win32Tasks.dll
+		Build\Tools\NAnt\NAnt.Win32Tasks.xml = Build\Tools\NAnt\NAnt.Win32Tasks.xml
+		Build\Tools\NAnt\NAnt.xml = Build\Tools\NAnt\NAnt.xml
+		Build\Tools\NAnt\NDoc.Documenter.NAnt.dll = Build\Tools\NAnt\NDoc.Documenter.NAnt.dll
+		Build\Tools\NAnt\scvs.exe = Build\Tools\NAnt\scvs.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{6111BE26-E022-4CB2-B36E-E4AD27FCA627}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.Console.dll = Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.Console.dll
+		Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.dll = Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.dll
+		Build\Tools\NAnt\lib\ICSharpCode.SharpZipLib.dll = Build\Tools\NAnt\lib\ICSharpCode.SharpZipLib.dll
+		Build\Tools\NAnt\lib\NUnitCore.dll = Build\Tools\NAnt\lib\NUnitCore.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net", "net", "{92BC491F-57AF-4170-BD63-BD2BB27A99D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0", "2.0", "{6DFA66FF-3075-472C-8767-A79CC9A71BB0}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\NAnt\lib\net\2.0\NDoc.Core.dll = Build\Tools\NAnt\lib\net\2.0\NDoc.Core.dll
+		Build\Tools\NAnt\lib\net\2.0\NDoc.Documenter.Msdn.dll = Build\Tools\NAnt\lib\net\2.0\NDoc.Documenter.Msdn.dll
+		Build\Tools\NAnt\lib\net\2.0\NDoc.ExtendedUI.dll = Build\Tools\NAnt\lib\net\2.0\NDoc.ExtendedUI.dll
+		Build\Tools\NAnt\lib\net\2.0\nunit.core.dll = Build\Tools\NAnt\lib\net\2.0\nunit.core.dll
+		Build\Tools\NAnt\lib\net\2.0\nunit.framework.dll = Build\Tools\NAnt\lib\net\2.0\nunit.framework.dll
+		Build\Tools\NAnt\lib\net\2.0\nunit.util.dll = Build\Tools\NAnt\lib\net\2.0\nunit.util.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "VNManager\Manager.csproj", "{E864EEA9-2370-4497-B624-ED56FC6C4DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Core\Model\Model.csproj", "{EAC8B2C8-D6DC-4B9C-8D56-F1F4CACDB381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Core\Services\Services.csproj", "{8AA3756D-7E41-48CC-BB13-EAEA160209C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{1139E52A-7D29-44F1-AC9C-D1CC406989C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Core\Common\Common.csproj", "{1521B380-B9A8-440E-BFB7-113F12C6FA69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VNManager", "VNManager", "{D33E6AFE-8A94-4D10-A765-8C7CFCFA5198}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\VNManager\VNManager.exe = Build\Tools\VNManager\VNManager.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SA", "SA", "{FD210DE4-ACC8-40B6-9AF1-7163BAEED966}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\SA\SARunner.exe = Build\Tools\SA\SARunner.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.wtdt.com:8181/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Core\\Common\\Common.csproj
+		SccProjectTopLevelParentUniqueName1 = VNManager.sln
+		SccProjectName1 = Core/Common
+		SccLocalPath1 = Core\\Common
+		SccProjectUniqueName2 = Core\\Model\\Model.csproj
+		SccProjectTopLevelParentUniqueName2 = VNManager.sln
+		SccProjectName2 = Core/Model
+		SccLocalPath2 = Core\\Model
+		SccProjectUniqueName3 = Core\\Services\\Services.csproj
+		SccProjectTopLevelParentUniqueName3 = VNManager.sln
+		SccProjectName3 = Core/Services
+		SccLocalPath3 = Core\\Services
+		SccProjectUniqueName4 = Tests\\UnitTests\\UnitTests.csproj
+		SccProjectTopLevelParentUniqueName4 = VNManager.sln
+		SccProjectName4 = Tests/UnitTests
+		SccLocalPath4 = Tests\\UnitTests
+		SccProjectUniqueName5 = VNManager\\Manager.csproj
+		SccProjectName5 = VNManager
+		SccLocalPath5 = VNManager
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E864EEA9-2370-4497-B624-ED56FC6C4DE5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E864EEA9-2370-4497-B624-ED56FC6C4DE5}.Debug|Any CPU.Build.0 = Debug|x86
+		{E864EEA9-2370-4497-B624-ED56FC6C4DE5}.Release|Any CPU.ActiveCfg = Release|x86
+		{E864EEA9-2370-4497-B624-ED56FC6C4DE5}.Release|Any CPU.Build.0 = Release|x86
+		{EAC8B2C8-D6DC-4B9C-8D56-F1F4CACDB381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC8B2C8-D6DC-4B9C-8D56-F1F4CACDB381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC8B2C8-D6DC-4B9C-8D56-F1F4CACDB381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC8B2C8-D6DC-4B9C-8D56-F1F4CACDB381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA3756D-7E41-48CC-BB13-EAEA160209C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA3756D-7E41-48CC-BB13-EAEA160209C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA3756D-7E41-48CC-BB13-EAEA160209C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA3756D-7E41-48CC-BB13-EAEA160209C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1139E52A-7D29-44F1-AC9C-D1CC406989C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1139E52A-7D29-44F1-AC9C-D1CC406989C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1139E52A-7D29-44F1-AC9C-D1CC406989C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1139E52A-7D29-44F1-AC9C-D1CC406989C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1521B380-B9A8-440E-BFB7-113F12C6FA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1521B380-B9A8-440E-BFB7-113F12C6FA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1521B380-B9A8-440E-BFB7-113F12C6FA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1521B380-B9A8-440E-BFB7-113F12C6FA69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69D1C5CA-9E7D-4F2E-A226-BD2588C06C04} = {C699B1FE-B29F-4A51-952D-5CD61ED277DA}
+		{9D815514-8672-4230-8AA1-9AF10CEC6C34} = {C699B1FE-B29F-4A51-952D-5CD61ED277DA}
+		{359DCC2E-8607-4DCD-A3DC-9562FB4BC8EA} = {C699B1FE-B29F-4A51-952D-5CD61ED277DA}
+		{EAC8B2C8-D6DC-4B9C-8D56-F1F4CACDB381} = {850CCCBA-0B39-4D7D-93BB-3F54504FFB70}
+		{8AA3756D-7E41-48CC-BB13-EAEA160209C4} = {850CCCBA-0B39-4D7D-93BB-3F54504FFB70}
+		{1521B380-B9A8-440E-BFB7-113F12C6FA69} = {850CCCBA-0B39-4D7D-93BB-3F54504FFB70}
+		{1139E52A-7D29-44F1-AC9C-D1CC406989C0} = {41AA2CA2-CAF5-4A05-95BD-8929436A3B05}
+		{09D36B86-FBBC-4C4E-8B02-3AFD53CB3EC8} = {5370AB0E-E8E9-4052-A8AE-DF435395813D}
+		{53D28164-46BA-48B5-A996-D5C82E177FA9} = {09D36B86-FBBC-4C4E-8B02-3AFD53CB3EC8}
+		{D33E6AFE-8A94-4D10-A765-8C7CFCFA5198} = {09D36B86-FBBC-4C4E-8B02-3AFD53CB3EC8}
+		{FD210DE4-ACC8-40B6-9AF1-7163BAEED966} = {09D36B86-FBBC-4C4E-8B02-3AFD53CB3EC8}
+		{6111BE26-E022-4CB2-B36E-E4AD27FCA627} = {53D28164-46BA-48B5-A996-D5C82E177FA9}
+		{92BC491F-57AF-4170-BD63-BD2BB27A99D8} = {6111BE26-E022-4CB2-B36E-E4AD27FCA627}
+		{6DFA66FF-3075-472C-8767-A79CC9A71BB0} = {92BC491F-57AF-4170-BD63-BD2BB27A99D8}
+	EndGlobalSection
+EndGlobal
