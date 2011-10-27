@@ -119,31 +119,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SA", "SA", "{FD210DE4-ACC8-
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.wtdt.com:8181/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Core\\Common\\Common.csproj
-		SccProjectTopLevelParentUniqueName1 = VNManager.sln
-		SccProjectName1 = Core/Common
-		SccLocalPath1 = Core\\Common
-		SccProjectUniqueName2 = Core\\Model\\Model.csproj
-		SccProjectTopLevelParentUniqueName2 = VNManager.sln
-		SccProjectName2 = Core/Model
-		SccLocalPath2 = Core\\Model
-		SccProjectUniqueName3 = Core\\Services\\Services.csproj
-		SccProjectTopLevelParentUniqueName3 = VNManager.sln
-		SccProjectName3 = Core/Services
-		SccLocalPath3 = Core\\Services
-		SccProjectUniqueName4 = Tests\\UnitTests\\UnitTests.csproj
-		SccProjectTopLevelParentUniqueName4 = VNManager.sln
-		SccProjectName4 = Tests/UnitTests
-		SccLocalPath4 = Tests\\UnitTests
-		SccProjectUniqueName5 = VNManager\\Manager.csproj
-		SccProjectName5 = VNManager
-		SccLocalPath5 = VNManager
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
